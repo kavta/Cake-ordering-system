@@ -10,15 +10,18 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     justifyContent: 'center',
   },
+
   container: {
     flex: 1,
     // backgroundColor: '#e8cbf2',
   },
-  Heading: {
+
+  heading: {
     fontSize: 40,
     textAlign: 'center',
   },
-  Heading2: {
+
+  heading2: {
     fontSize: 30,
     textAlign: 'left',
     top: -100,
@@ -26,16 +29,18 @@ const styles = StyleSheet.create({
     marginRight: 'auto',
     color: '#E49C92',
   },
+
   secondContainer: {
     marginTop: 20,
   },
 
-  Image1: {
+  image1: {
     height: 250,
     alignSelf: 'flex-end',
     width: 150,
     marginRight: 30,
   },
+
   background: {
     height: '100%',
   },
@@ -48,8 +53,8 @@ const Home = () => {
         <Header />
         <View style={styles.background}>
           <View style={styles.secondContainer}>
-            <Image source={cake} style={styles.Image1} />
-            <Text style={styles.Heading2}>We Bake {'\n'}for you Sake</Text>
+            <Image source={cake} style={styles.image1} />
+            <Text style={styles.heading2}>We Bake {'\n'}for you Sake</Text>
           </View>
         </View>
       </LinearGradient>
